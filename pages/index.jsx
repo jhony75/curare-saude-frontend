@@ -37,6 +37,13 @@ export default function Home() {
               <p>Clique aqui para abrir a interface para pacientes</p>
             </a>
           </Link>
+
+          <Link href="/form">
+            <a className={styles.card}>
+              <h2>Formulário &rarr;</h2>
+              <p>APENAS PARA TESTES - ME DELETE ANTES DE IR PRA PROD</p>
+            </a>
+          </Link>
         </div>
       </main>
 
